@@ -22,6 +22,7 @@ Feel free to contribute to this repo, [PRs are more than welcome](https://github
   - [Advanced](#advanced)
 - [Labs](#labs)
 - [Tips \& Tricks](#tips--tricks)
+- [Misc](#misc)
 - [Related lists](#related-lists)
 - [License](#license)
 
@@ -93,6 +94,11 @@ Kustomize has 3 types of plugins `generator`, `transformer`, and `validator`.
 - [Delete a manifest from a Kustomize base](https://tech.aabouzaid.com/2021/05/delete-a-manifest-from-kustomize-base.html)
 - [Apply Kustomize builtin transformers on a single resource](https://tech.aabouzaid.com/2022/04/apply-kustomize-builtin-transformers-on-a-single-resource.html)
 - [Pass extra data to the Containerized KRM function](https://tech.aabouzaid.com/2022/12/pass-extra-data-to-the-containerized-krm-function.html)
+
+
+## Misc
+
+- [Kustomize plugin for asdf version manager](https://github.com/Banno/asdf-kustomize)
 
 
 ## Related lists
