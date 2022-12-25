@@ -1,6 +1,6 @@
 # Awesome Kustomize
 [![Awesome](https://raw.githubusercontent.com/sindresorhus/awesome/main/media/badge.svg)](https://github.com/sindresorhus/awesome)
- [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/aabouzaid/awesome-kustomize/pulls) 
+ [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/aabouzaid/awesome-kustomize/pulls)
 
 A curated and collaborative list of awesome [Kustomize](https://kustomize.io/) resources.
 Feel free to contribute to this repo, [PRs are more than welcome](https://github.com/aabouzaid/awesome-kustomize/pulls)!
@@ -20,7 +20,6 @@ Feel free to contribute to this repo, [PRs are more than welcome](https://github
   - [Novice](#novice)
   - [Intermediate](#intermediate)
   - [Advanced](#advanced)
-- [Labs](#labs)
 - [Tips \& Tricks](#tips--tricks)
 - [Misc](#misc)
 - [Related lists](#related-lists)
@@ -30,7 +29,7 @@ Feel free to contribute to this repo, [PRs are more than welcome](https://github
 ## Introduction
 
 Kustomize introduces a template-free way to customize Kubernetes manifests. It uses a purely declarative approach
-to configuration customization, which will help you efficiently manage your Infrastructure as a code (IaC). 
+to configuration customization, which will help you efficiently manage your Infrastructure as a code (IaC).
 
 Kustomize works as a standalone binary; also, it's built into `kubectl` (since v1.14). It can be used with
 off-the-shelf applications like **Helm charts**. Also, it has a deep integration with different **GitOps** tools
@@ -64,36 +63,38 @@ Kustomize has 3 types of plugins `generator`, `transformer`, and `validator`.
 | Name | Description &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Method |
 | ---- | -------------------------------------------------------------------------- | ------ |
 | [HelmValuesTransformer](https://github.com/openinfradev/kustomize-helm-transformer) | Transforming values in HelmRelease CustomResource. It helps to manage a lot of HelmRelease's value in single transformer file | Exec |
-| [TemplateTransformer](https://github.com/joshdk/template-transformer) | Transforming templating in resources based on env vars | Exec |  
+| [TemplateTransformer](https://github.com/joshdk/template-transformer) | Transforming templating in resources based on env vars | Exec |
 
 
 ## Guides
 
+📰 Article, 📺 Video, 🧪 Lab
+
 ### Novice
 
-- [Declarative Management of Kubernetes Objects Using Kustomize](https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/) - Kubernetes Docs
-- [Configure Kubernetes with Kustomize](https://cloud.google.com/anthos-config-management/docs/concepts/kustomize) - Google Cloud
+- 📰 [Declarative Management of Kubernetes Objects Using Kustomize](https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/) - Kubernetes Docs
+- 📰 [Configure Kubernetes with Kustomize](https://cloud.google.com/anthos-config-management/docs/concepts/kustomize) - Google Cloud
+- 📺 [Organizing the YAML mess with Kustomize](https://www.youtube.com/watch?v=1fCAwFGX38U&t=77s) - Florian Assmus
+- 📺 [Kustomize: Deploy Your App with Template Free YAML](https://www.youtube.com/watch?v=ahMIBxufNR0) - Ryan Cox, Lyft
 
 ### Intermediate
 
-- [3 ways to customize off-the-shelf Helm charts with Kustomize](https://tech.aabouzaid.com/2020/09/3-ways-to-customize-off-the-shelf-helm-charts-with-kustomize-kubernetes.html) - Ahmed AbouZaid
+- 🧪 [ArgoCD GitOps Tutorial - Working with Kustomize](https://developers.redhat.com/learning/learn:openshift:develop-gitops/resource/resources:working-kustomize) - Red Hat Developer
+- 📰 [3 ways to customize off-the-shelf Helm charts with Kustomize](https://tech.aabouzaid.com/2020/09/3-ways-to-customize-off-the-shelf-helm-charts-with-kustomize-kubernetes.html) - Ahmed AbouZaid
 
 ### Advanced
 
-- [Advanced Kustomize features](https://www.innoq.com/en/blog/advanced-kustomize-features/) - INNOQ
-- [Set OpenAPI patch strategy for Kubernetes Custom Resources](https://tech.aabouzaid.com/2022/11/set-openapi-patch-strategy-for-kubernetes-custom-resources-kustomize.html) - Ahmed AbouZaid
-
-
-## Labs
-
-- [ArgoCD GitOps Tutorial - Working with Kustomize](https://developers.redhat.com/learning/learn:openshift:develop-gitops/resource/resources:working-kustomize) - Red Hat Developer
+- 📰 [Advanced Kustomize features](https://www.innoq.com/en/blog/advanced-kustomize-features/) - INNOQ
+- 📰 [Set OpenAPI patch strategy for Kubernetes Custom Resources](https://tech.aabouzaid.com/2022/11/set-openapi-patch-strategy-for-kubernetes-custom-resources-kustomize.html) - Ahmed AbouZaid
+- 📺 [Customizing Kustomize with Client-Side Custom Resources](https://www.youtube.com/watch?v=YlFUv4F5PYc) - Katrina Verey, Apple & Jeff Regan, Google
+- 📺 [Own your YAML: extending Kustomize via Plugins](https://www.youtube.com/watch?v=Xoh_OpLoVtI) - Matt McEuen
 
 
 ## Tips & Tricks
 
-- [Delete a manifest from a Kustomize base](https://tech.aabouzaid.com/2021/05/delete-a-manifest-from-kustomize-base.html)
-- [Apply Kustomize builtin transformers on a single resource](https://tech.aabouzaid.com/2022/04/apply-kustomize-builtin-transformers-on-a-single-resource.html)
-- [Pass extra data to the Containerized KRM function](https://tech.aabouzaid.com/2022/12/pass-extra-data-to-the-containerized-krm-function.html)
+- 📰 [Delete a manifest from a Kustomize base](https://tech.aabouzaid.com/2021/05/delete-a-manifest-from-kustomize-base.html)
+- 📰 [Apply Kustomize builtin transformers on a single resource](https://tech.aabouzaid.com/2022/04/apply-kustomize-builtin-transformers-on-a-single-resource.html)
+- 📰 [Pass extra data to the Containerized KRM function](https://tech.aabouzaid.com/2022/12/pass-extra-data-to-the-containerized-krm-function.html)
 
 
 ## Misc
