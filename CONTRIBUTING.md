@@ -1,6 +1,5 @@
 # Contribution Guidelines
 
-All feedback and contributions are welcome.
+If you have a resource, plugin, or anything related to Kustomize, feel free to contribute.
 
-If you have a resource, plugin, or anything related to Kustomize,
-feel free to open a [PR](https://github.com/aabouzaid/awesome-kustomize/compare) for it.
+Contributions are welcome, add links through [pull requests](https://github.com/aabouzaid/awesome-kustomize/pulls) or create an issue to start a discussion.

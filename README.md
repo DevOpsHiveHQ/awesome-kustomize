@@ -1,19 +1,22 @@
 <!-- omit in toc -->
-# Awesome Kustomize
-[![Awesome](https://raw.githubusercontent.com/sindresorhus/awesome/main/media/badge.svg)](https://github.com/sindresorhus/awesome)
- [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/aabouzaid/awesome-kustomize/compare)
-
-A curated and collaborative list of awesome [Kustomize](https://kustomize.io/) resources.
-Feel free to contribute to this repo, [PRs are more than welcome](https://github.com/aabouzaid/awesome-kustomize/pulls)!
+# Awesome Kustomize [![Awesome](https://raw.githubusercontent.com/sindresorhus/awesome/main/media/badge.svg)](https://github.com/sindresorhus/awesome) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/aabouzaid/awesome-kustomize/compare)
 
 <p align="center">
+  <a href="https://kustomize.io">
     <img src="img/kustomize.svg" width="80%">
+  </a>
 </p>
+
+> A curated and collaborative list of awesome Kustomize resources.
+
+[Kustomize](https://kustomize.io) introduces a template-free way to customize Kubernetes manifests. It's extensible and uses a purely declarative approach to configuration customization, which will help you efficiently manage your Infrastructure as a code (IaC).
+
+Contributions are welcome, add links through [pull requests](https://github.com/aabouzaid/awesome-kustomize/pulls) or create an issue to start a discussion.
 
 <!-- omit in toc -->
 ## Contents
 
-- [Introduction](#introduction)
+- [Overview](#overview)
 - [Plugins](#plugins)
   - [Generators](#generators)
   - [Transformers](#transformers)
@@ -22,18 +25,13 @@ Feel free to contribute to this repo, [PRs are more than welcome](https://github
   - [Novice](#novice)
   - [Intermediate](#intermediate)
   - [Advanced](#advanced)
-- [Tips \& Tricks](#tips--tricks)
+  - [Tips \& Tricks](#tips--tricks)
 - [Misc](#misc)
 - [Related lists](#related-lists)
 
-## Introduction
+## Overview
 
-Kustomize introduces a template-free way to customize Kubernetes manifests. It uses a purely declarative approach
-to configuration customization, which will help you efficiently manage your Infrastructure as a code (IaC).
-
-Kustomize works as a standalone binary; also, it's built into `kubectl` (since v1.14). It can be used with
-off-the-shelf applications like **Helm charts**. Also, it has a deep integration with different **GitOps** tools
-like ArgoCD, Flux, and many others.
+Kustomize works as a standalone binary; also, it's built into `kubectl` (since v1.14). It can be used with off-the-shelf applications like **Helm charts**. Also, it has a deep integration with different **GitOps** tools like ArgoCD, Flux, and many others.
 
 ## Plugins
 
@@ -69,38 +67,38 @@ Kustomize has 3 types of plugins `generator`, `transformer`, and `validator`.
 
 ## Guides
 
-📰 Article, 📺 Video, 🧪 Lab
+Kustomize guides based on their level or type like 📰 Article, 📺 Video, 🧪 Lab.
 
 ### Novice
 
-- 📰 [Declarative Management of Kubernetes Objects Using Kustomize](https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/) - Kubernetes Docs
-- 📰 [Configure Kubernetes with Kustomize](https://cloud.google.com/anthos-config-management/docs/concepts/kustomize) - Google Cloud
-- 📺 [Organizing the YAML mess with Kustomize](https://www.youtube.com/watch?v=1fCAwFGX38U&t=77s) - Florian Assmus
-- 📺 [Kustomize: Deploy Your App with Template Free YAML](https://www.youtube.com/watch?v=ahMIBxufNR0) - Ryan Cox, Lyft
+- 📰 [Declarative Management of Kubernetes Objects Using Kustomize](https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/) - The official Kubernetes documentation task for Kustomize.
+- 📰 [Configure Kubernetes with Kustomize](https://cloud.google.com/anthos-config-management/docs/concepts/kustomize) - A guide helps to get started with Kustomize, understand its intended use cases, and find resources for using it with other Google Cloud tools.
+- 📺 [Organizing the YAML mess with Kustomize](https://www.youtube.com/watch?v=1fCAwFGX38U) - A talk shows how Kustomize could help to manage Kubernetes YAML files with a growing number of services and environments.
+- 📺 [Kustomize: Deploy Your App with Template Free YAML](https://www.youtube.com/watch?v=ahMIBxufNR0) - A talk introduces Kustomize, a declarative application management system, that allows deployments to be described as template free YAML.
 
 ### Intermediate
 
-- 🧪 [ArgoCD GitOps Tutorial - Working with Kustomize](https://developers.redhat.com/learning/learn:openshift:develop-gitops/resource/resources:working-kustomize) - Red Hat Developer
-- 📰 [3 ways to customize off-the-shelf Helm charts with Kustomize](https://tech.aabouzaid.com/2020/09/3-ways-to-customize-off-the-shelf-helm-charts-with-kustomize-kubernetes.html) - Ahmed AbouZaid
+- 🧪 [ArgoCD GitOps Tutorial - Working with Kustomize](https://developers.redhat.com/learning/learn:openshift:develop-gitops/resource/resources:working-kustomize) - A hands-on lab covers using Kustomize in GitOps and it goes through the Kustomize syntax and deploying a Kustomized application.
+- 📰 [3 ways to customize off-the-shelf Helm charts with Kustomize](https://tech.aabouzaid.com/2020/09/3-ways-to-customize-off-the-shelf-helm-charts-with-kustomize-kubernetes.html) - A guide covers 3 different ways to use Kustomize and Helm together.
 
 ### Advanced
 
-- 📰 [Advanced Kustomize features](https://www.innoq.com/en/blog/advanced-kustomize-features/) - INNOQ
-- 📰 [Set OpenAPI patch strategy for Kubernetes Custom Resources](https://tech.aabouzaid.com/2022/11/set-openapi-patch-strategy-for-kubernetes-custom-resources-kustomize.html) - Ahmed AbouZaid
-- 📺 [Customizing Kustomize with Client-Side Custom Resources](https://www.youtube.com/watch?v=YlFUv4F5PYc) - Katrina Verey, Apple & Jeff Regan, Google
-- 📺 [Own your YAML: extending Kustomize via Plugins](https://www.youtube.com/watch?v=Xoh_OpLoVtI) - Matt McEuen
+- 📰 [Advanced Kustomize features](https://www.innoq.com/en/blog/advanced-kustomize-features/) - A guide covers more than 5 advanced Kustomize capabilities.
+- 📰 [Set OpenAPI patch strategy for Kubernetes Custom Resources](https://tech.aabouzaid.com/2022/11/set-openapi-patch-strategy-for-kubernetes-custom-resources-kustomize.html) - A guide shows how to provide schema to control the patch strategy of the CRDs.
+- 📺 [Customizing Kustomize with Client-Side Custom Resources](https://www.youtube.com/watch?v=YlFUv4F5PYc) - A talk covers extending Kustomize via plugins to address common yet idiosyncratic application needs.
+- 📺 [Own your YAML: extending Kustomize via Plugins](https://www.youtube.com/watch?v=Xoh_OpLoVtI) - A talk shows how to create custom resources using Kustomize external plugins.
+- 📰 [Kustomize Enhancement with KRM Functions](https://www.innoq.com/en/blog/kustomize-enhancement-with-krm-functions/) - A detailed guide covers KRM concept and how to use it in Kustomize plugins.
 
+### Tips & Tricks
 
-## Tips & Tricks
-
-- 📰 [Delete a manifest from a Kustomize base](https://tech.aabouzaid.com/2021/05/delete-a-manifest-from-kustomize-base.html)
-- 📰 [Apply Kustomize builtin transformers on a single resource](https://tech.aabouzaid.com/2022/04/apply-kustomize-builtin-transformers-on-a-single-resource.html)
-- 📰 [Pass extra data to the Containerized KRM function](https://tech.aabouzaid.com/2022/12/pass-extra-data-to-the-containerized-krm-function.html)
+- 📰 [Delete a manifest from a Kustomize base](https://tech.aabouzaid.com/2021/05/delete-a-manifest-from-kustomize-base.html) - A handy way to delete named manifest using Kustomize patch.
+- 📰 [Apply Kustomize builtin transformers on a single resource](https://tech.aabouzaid.com/2022/04/apply-kustomize-builtin-transformers-on-a-single-resource.html) - A way to use internal transformers on specific resources.
+- 📰 [Pass extra data to the Containerized KRM function](https://tech.aabouzaid.com/2022/12/pass-extra-data-to-the-containerized-krm-function.html) - Different cases of share data with Containerized KRM function.
 
 
 ## Misc
 
-- [Kustomize plugin for asdf version manager](https://github.com/Banno/asdf-kustomize)
+- [asdf-kustomize](https://github.com/Banno/asdf-kustomize) - Kustomize plugin for asdf version manager.
 
 
 ## Related lists
