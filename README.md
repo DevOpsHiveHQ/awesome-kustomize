@@ -1,3 +1,4 @@
+<!-- omit in toc -->
 # Awesome Kustomize
 [![Awesome](https://raw.githubusercontent.com/sindresorhus/awesome/main/media/badge.svg)](https://github.com/sindresorhus/awesome)
  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/aabouzaid/awesome-kustomize/pulls)
@@ -16,6 +17,7 @@ Feel free to contribute to this repo, [PRs are more than welcome](https://github
 - [Plugins](#plugins)
   - [Generators](#generators)
   - [Transformers](#transformers)
+  - [Validators](#validators)
 - [Guides](#guides)
   - [Novice](#novice)
   - [Intermediate](#intermediate)
@@ -64,6 +66,12 @@ Kustomize has 3 types of plugins `generator`, `transformer`, and `validator`.
 | ---- | -------------------------------------------------------------------------- | ------ |
 | [HelmValuesTransformer](https://github.com/openinfradev/kustomize-helm-transformer) | Transforming values in HelmRelease CustomResource. It helps to manage a lot of HelmRelease's value in single transformer file | Exec |
 | [TemplateTransformer](https://github.com/joshdk/template-transformer) | Transforming templating in resources based on env vars | Exec |
+
+### Validators
+
+| Name | Description &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Method |
+| ---- | -------------------------------------------------------------------------- | ------ |
+| [KubeconformValidator](https://github.com/aabouzaid/kustomize-kubeconformvalidator) | Validating Kubernetes manifests using embedded Kubeconform | Containerized KRM, Exec KRM |
 
 
 ## Guides
