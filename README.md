@@ -1,7 +1,7 @@
 <!-- omit in toc -->
 # Awesome Kustomize
 [![Awesome](https://raw.githubusercontent.com/sindresorhus/awesome/main/media/badge.svg)](https://github.com/sindresorhus/awesome)
- [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/aabouzaid/awesome-kustomize/pulls)
+ [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/aabouzaid/awesome-kustomize/compare)
 
 A curated and collaborative list of awesome [Kustomize](https://kustomize.io/) resources.
 Feel free to contribute to this repo, [PRs are more than welcome](https://github.com/aabouzaid/awesome-kustomize/pulls)!
@@ -37,9 +37,9 @@ Kustomize works as a standalone binary; also, it's built into `kubectl` (since v
 off-the-shelf applications like **Helm charts**. Also, it has a deep integration with different **GitOps** tools
 like ArgoCD, Flux, and many others.
 
-- **Website:** https://kustomize.io
-- **Docs:** https://kubectl.docs.kubernetes.io/references/kustomize
-- **Git repo:** https://github.com/kubernetes-sigs/kustomize
+- [Website](https://kustomize.io)
+- [Docs](https://kubectl.docs.kubernetes.io/references/kustomize)
+- [Git repo](https://github.com/kubernetes-sigs/kustomize)
 
 
 ## Plugins
@@ -115,15 +115,3 @@ Kustomize has 3 types of plugins `generator`, `transformer`, and `validator`.
 - [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
 - [Awesome Kubectl plugins](https://github.com/ishantanu/awesome-kubectl-plugins)
 - [Awesome Helm](https://github.com/cdwv/awesome-helm)
-
-
-## License
-
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-    <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
-</a>
-
-<br />
-
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-Creative Commons Attribution 4.0 International License</a> (CC BY 4.0).
