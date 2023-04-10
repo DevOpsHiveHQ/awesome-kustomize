@@ -25,8 +25,6 @@ Feel free to contribute to this repo, [PRs are more than welcome](https://github
 - [Tips \& Tricks](#tips--tricks)
 - [Misc](#misc)
 - [Related lists](#related-lists)
-- [License](#license)
-
 
 ## Introduction
 
@@ -37,16 +35,11 @@ Kustomize works as a standalone binary; also, it's built into `kubectl` (since v
 off-the-shelf applications like **Helm charts**. Also, it has a deep integration with different **GitOps** tools
 like ArgoCD, Flux, and many others.
 
-- [Website](https://kustomize.io)
-- [Docs](https://kubectl.docs.kubernetes.io/references/kustomize)
-- [Git repo](https://github.com/kubernetes-sigs/kustomize)
-
-
 ## Plugins
 
 Kustomize has 3 types of plugins `generator`, `transformer`, and `validator`.
 
-> **Note**
+> Note
 >
 > If you are a plugin developer, it's highly recommended to support the new plugins standard
 > [KRM function](https://github.com/kubernetes-sigs/kustomize/blob/master/cmd/config/docs/api-conventions/functions-spec.md).
