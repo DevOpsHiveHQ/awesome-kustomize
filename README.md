@@ -44,26 +44,19 @@ Kustomize has 3 types of plugins `generator`, `transformer`, and `validator`.
 
 ### Generators
 
-| Name | Description &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Method |
-| ---- | -------------------------------------------------------------------------- | ------ |
-| [Secretize](https://github.com/bbl/secretize) | Generating Kubernetes Secret from various sources. It's like a swiss army knife, but for Kubernetes secrets | Exec |
-| [SopsSecretGenerator](https://github.com/goabout/kustomize-sopssecretgenerator/) | Generating Secrets from sops-encrypted files | Exec, Exec KRM |
-| [KSops](https://github.com/viaduct-ai/kustomize-sops) | Generating Secrets from sops-encrypted files | Exec |
-| [PolicyGenerator](https://github.com/open-cluster-management-io/policy-generator-plugin) | Generating Open Cluster Management policies | Exec |
+- [Secretize](https://github.com/bbl/secretize): Generating Kubernetes Secret from various sources. It's like a swiss army knife, but for Kubernetes secrets (Exec).
+- [SopsSecretGenerator](https://github.com/goabout/kustomize-sopssecretgenerator/): Generating Secrets from sops-encrypted files (Exec, Exec KRM).
+- [KSops](https://github.com/viaduct-ai/kustomize-sops): Generating Secrets from sops-encrypted files (Exec).
+- [PolicyGenerator](https://github.com/open-cluster-management-io/policy-generator-plugin): Generating Open Cluster Management policies (Exec).
 
 ### Transformers
 
-| Name | Description &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Method |
-| ---- | -------------------------------------------------------------------------- | ------ |
-| [HelmValuesTransformer](https://github.com/openinfradev/kustomize-helm-transformer) | Transforming values in HelmRelease CustomResource. It helps to manage a lot of HelmRelease's value in single transformer file | Exec |
-| [TemplateTransformer](https://github.com/joshdk/template-transformer) | Transforming templating in resources based on env vars | Exec |
+- [HelmValuesTransformer](https://github.com/openinfradev/kustomize-helm-transformer): Transforming values in HelmRelease CustomResource. It helps to manage a lot of HelmRelease's value in single transformer file (Exec).
+- [TemplateTransformer](https://github.com/joshdk/template-transformer): Transforming templating in resources based on env vars (Exec).
 
 ### Validators
 
-| Name | Description &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Method |
-| ---- | -------------------------------------------------------------------------- | ------ |
-| [KubeconformValidator](https://github.com/aabouzaid/kustomize-kubeconformvalidator) | Validating Kubernetes manifests using embedded Kubeconform | Containerized KRM, Exec KRM |
-
+- [KubeconformValidator](https://github.com/aabouzaid/kustomize-kubeconformvalidator): Validating Kubernetes manifests using embedded Kubeconform (Containerized KRM, Exec KRM).
 
 ## Guides
 
