@@ -48,11 +48,12 @@ Kustomize has 3 types of plugins `generator`, `transformer`, and `validator`.
 - [SopsSecretGenerator](https://github.com/goabout/kustomize-sopssecretgenerator/): Generating Secrets from sops-encrypted files (Exec, Exec KRM).
 - [KSops](https://github.com/viaduct-ai/kustomize-sops): Generating Secrets from sops-encrypted files (Exec).
 - [PolicyGenerator](https://github.com/open-cluster-management-io/policy-generator-plugin): Generating Open Cluster Management policies (Exec).
+- [KRMFfnBuiltin](https://github.com/kaweezle/krmfnbuiltin): Generating Open Cluster Management policies (Exec).
 
 ### Transformers
 
 - [HelmValuesTransformer](https://github.com/openinfradev/kustomize-helm-transformer): Transforming values in HelmRelease CustomResource. It helps to manage a lot of HelmRelease's value in single transformer file (Exec).
-- [TemplateTransformer](https://github.com/joshdk/template-transformer): Transforming templating in resources based on env vars (Exec).
+- [TemplateTransformer](https://github.com/joshdk/template-transformer): Providing a set of KRM Functions to run builtin transformers in place (Containerized KRM, Exec KRM).
 
 ### Validators
 
