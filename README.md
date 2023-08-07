@@ -44,20 +44,20 @@ Kustomize has 3 types of plugins `generator`, `transformer`, and `validator`.
 
 ### Generators
 
-- [Secretize](https://github.com/bbl/secretize): Generating Kubernetes Secret from various sources. It's like a swiss army knife, but for Kubernetes secrets (Exec).
-- [SopsSecretGenerator](https://github.com/goabout/kustomize-sopssecretgenerator/): Generating Secrets from sops-encrypted files (Exec, Exec KRM).
-- [KSops](https://github.com/viaduct-ai/kustomize-sops): Generating Secrets from sops-encrypted files (Exec).
-- [PolicyGenerator](https://github.com/open-cluster-management-io/policy-generator-plugin): Generating Open Cluster Management policies (Exec).
-- [KRMFfnBuiltin](https://github.com/kaweezle/krmfnbuiltin): Generating Open Cluster Management policies (Exec).
+- [Secretize](https://github.com/bbl/secretize) - Generating Kubernetes Secret from various sources. It's like a swiss army knife, but for Kubernetes secrets (Exec).
+- [SopsSecretGenerator](https://github.com/goabout/kustomize-sopssecretgenerator/) - Generating Secrets from sops-encrypted files (Exec, Exec KRM).
+- [KSops](https://github.com/viaduct-ai/kustomize-sops) - Generating Secrets from sops-encrypted files (Exec).
+- [PolicyGenerator](https://github.com/open-cluster-management-io/policy-generator-plugin) - Generating Open Cluster Management policies (Exec).
+- [KRMFfnBuiltin](https://github.com/kaweezle/krmfnbuiltin) - Generating Open Cluster Management policies (Exec).
 
 ### Transformers
 
-- [HelmValuesTransformer](https://github.com/openinfradev/kustomize-helm-transformer): Transforming values in HelmRelease CustomResource. It helps to manage a lot of HelmRelease's value in single transformer file (Exec).
-- [TemplateTransformer](https://github.com/joshdk/template-transformer): Providing a set of KRM Functions to run builtin transformers in place (Containerized KRM, Exec KRM).
+- [HelmValuesTransformer](https://github.com/openinfradev/kustomize-helm-transformer) - Transforming values in HelmRelease CustomResource. It helps to manage a lot of HelmRelease's value in single transformer file (Exec).
+- [TemplateTransformer](https://github.com/joshdk/template-transformer) - Providing a set of KRM Functions to run builtin transformers in place (Containerized KRM, Exec KRM).
 
 ### Validators
 
-- [KubeconformValidator](https://github.com/aabouzaid/kustomize-kubeconformvalidator): Validating Kubernetes manifests using embedded Kubeconform (Containerized KRM, Exec KRM).
+- [KubeconformValidator](https://github.com/aabouzaid/kustomize-kubeconformvalidator) - Validating Kubernetes manifests using embedded Kubeconform (Containerized KRM, Exec KRM).
 
 ## Guides
 
@@ -92,11 +92,11 @@ Kustomize guides based on their level or type like 📰 Article, 📺 Video, �
 
 ## Misc
 
-- [asdf-kustomize](https://github.com/Banno/asdf-kustomize) - Kustomize plugin for asdf version manager.
+- [Asdf-kustomize](https://github.com/Banno/asdf-kustomize) - Kustomize plugin for asdf version manager.
 
 
 ## Related lists
 
-- [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
-- [Awesome Kubectl plugins](https://github.com/ishantanu/awesome-kubectl-plugins)
-- [Awesome Helm](https://github.com/cdwv/awesome-helm)
+- [Awesome Kubernetes](https://github.com/ramitsurana/awesome-kubernetes) - A curated list of awesome Kubernetes resources.
+- [Awesome Kubectl plugins](https://github.com/ishantanu/awesome-kubectl-plugins) - A curated list of awesome Kubectl plugins.
+- [Awesome Helm](https://github.com/cdwv/awesome-helm) - A curated list of awesome Helm charts and resources.
