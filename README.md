@@ -72,7 +72,7 @@ Kustomize guides based on their level or type like 📰 Article, 📺 Video, �
 
 ### Intermediate
 
-- 🧪 [ArgoCD GitOps Tutorial - Working with Kustomize](https://developers.redhat.com/learning/learn:openshift:develop-gitops/resource/resources:working-kustomize) - A hands-on lab covers using Kustomize in GitOps and it goes through the Kustomize syntax and deploying a Kustomized application.
+- 🧪 [ArgoCD GitOps Tutorial - Working with Kustomize](https://redhat-scholars.github.io/argocd-tutorial/argocd-tutorial/03-kustomize.html) - A hands-on lab covers using Kustomize in GitOps and it goes through the Kustomize syntax and deploying a Kustomized application.
 - 📰 [3 ways to customize off-the-shelf Helm charts with Kustomize](https://tech.aabouzaid.com/2020/09/3-ways-to-customize-off-the-shelf-helm-charts-with-kustomize-kubernetes.html) - A guide covers 3 different ways to use Kustomize and Helm together.
 
 ### Advanced
