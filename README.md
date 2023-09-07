@@ -69,6 +69,7 @@ Kustomize guides based on their level or type like 📰 Article, 📺 Video, �
 - 📰 [Configure Kubernetes with Kustomize](https://cloud.google.com/anthos-config-management/docs/concepts/kustomize) - A guide helps to get started with Kustomize, understand its intended use cases, and find resources for using it with other Google Cloud tools.
 - 📺 [Organizing the YAML mess with Kustomize](https://www.youtube.com/watch?v=1fCAwFGX38U) - A talk shows how Kustomize could help to manage Kubernetes YAML files with a growing number of services and environments.
 - 📺 [Kustomize: Deploy Your App with Template Free YAML](https://www.youtube.com/watch?v=ahMIBxufNR0) - A talk introduces Kustomize, a declarative application management system, that allows deployments to be described as template free YAML.
+- 📺 [Kustomize Course from Kodekloud](https://kodekloud.com/courses/kustomize/) - A series of lectures and labs from Kodekloud. This is a paid course. 
 
 ### Intermediate
 
