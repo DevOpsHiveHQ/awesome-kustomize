@@ -112,7 +112,7 @@ Kustomize guides based on their level or type like 📰 Article, 📺 Video, �
 # Awesome Components
 Awesome Components are Kustmoize Components which can help with common day-to-day operations, such as hardening your deployment to be compliant with the [restricted Pod Security Standard](https://kubernetes.io/docs/concepts/security/pod-security-standards/#restricted).
 
-You can find them [here](./components/).
+You can find them [here](./awesome-components//).
 
 ## Related lists
 
