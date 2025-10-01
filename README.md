@@ -38,6 +38,7 @@ Preview:
   - [Intermediate](#intermediate)
   - [Advanced](#advanced)
   - [Tips \& Tricks](#tips--tricks)
+- [Awesome Components]()
 - [Misc](#misc)
 - [Related lists](#related-lists)
 
@@ -108,6 +109,10 @@ Kustomize guides based on their level or type like 📰 Article, 📺 Video, �
 
 - [Asdf-kustomize](https://github.com/Banno/asdf-kustomize) - Kustomize plugin for asdf version manager.
 
+# Awesome Componenets
+Awesome Componenets are Kustmoize Components which can help with common day-to-day operations, such as hardening your deployment to be compliant with the [restricted Pod Security Standard](https://kubernetes.io/docs/concepts/security/pod-security-standards/#restricted).
+
+You can find them [here](./components/).
 
 ## Related lists
 
