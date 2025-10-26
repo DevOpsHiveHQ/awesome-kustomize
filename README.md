@@ -38,6 +38,7 @@ Preview:
   - [Intermediate](#intermediate)
   - [Advanced](#advanced)
   - [Tips \& Tricks](#tips--tricks)
+- [Snippets](#snippets)
 - [Misc](#misc)
 - [Related lists](#related-lists)
 
@@ -103,6 +104,12 @@ Kustomize guides based on their level or type like 📰 Article, 📺 Video, �
 - 📰 [Apply Kustomize builtin transformers on a single resource](https://tech.aabouzaid.com/2022/04/apply-kustomize-builtin-transformers-on-a-single-resource.html) - A way to use internal transformers on specific resources.
 - 📰 [Pass extra data to the Containerized KRM function](https://tech.aabouzaid.com/2022/12/pass-extra-data-to-the-containerized-krm-function.html) - Different cases of share data with Containerized KRM function.
 
+
+## Snippets
+
+Snippets are Kustmoize use-case-specific examples that can help with common day-to-day operations.
+
+- [Add Pod security context](https://github.com/3deep5me/awesome-kustomize/blob/add-security-context-component/snippets/add-pod-security-context/kustomization.yaml) - Ensure the security context is added to containers in the Pod.
 
 ## Misc
 
