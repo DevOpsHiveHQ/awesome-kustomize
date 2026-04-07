@@ -57,8 +57,8 @@ Kustomize has 3 plugin types: `generator`, `transformer`, and `validator`.
 
 ### Generators
 
-- [Secretize](https://github.com/bbl/secretize) - Generating Kubernetes Secret from various sources. It's like a Swiss Army knife, but for Kubernetes secrets (Exec).
-- [SopsSecretGenerator](https://github.com/goabout/kustomize-sopssecretgenerator/) - Generating Secrets from sops-encrypted files (Exec, Exec KRM).
+- [Secretize](https://github.com/bbl/secretize) - Generating Kubernetes Secret from various sources. It's like a Swiss Army knife, but for Kubernetes secrets (Containerized KRM, Exec KRM, Exec).
+- [SopsSecretGenerator](https://github.com/goabout/kustomize-sopssecretgenerator/) - Generating Secrets from sops-encrypted files (Exec KRM, Exec).
 - [KSops](https://github.com/viaduct-ai/kustomize-sops) - Generating Secrets from sops-encrypted files (Exec).
 - [PolicyGenerator](https://github.com/open-cluster-management-io/policy-generator-plugin) - Generating Open Cluster Management policies (Exec).
 - [KRMFfnBuiltin](https://github.com/kaweezle/krmfnbuiltin) - Running builtin generators transformers (Exec).
