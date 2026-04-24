@@ -41,6 +41,7 @@ Preview:
 - [Snippets](#snippets)
 - [Misc](#misc)
 - [Related lists](#related-lists)
+- [KubeStellar Console](https://github.com/kubestellar/console) - Multi-cluster Kubernetes dashboard with AI-powered operations, real-time observability, and CNCF project integrations across edge and cloud clusters.
 
 ## Overview
 
